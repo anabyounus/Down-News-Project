@@ -1,0 +1,60 @@
+@media only screen and (max-width: 1340px) {
+    body {
+        font-size: 14px;
+        width: 100%;
+        height: auto;
+    }
+    .upper{
+        width: 100%;
+        height: auto;
+    }
+    .upper .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .upper .navbar ul li{
+        margin-left: 1px;
+        margin-right: 1px;
+        padding-right: 1px;
+    }
+    .upper .navbar ul li a{
+        font-size: 10px;
+    }
+    .logo{
+        width: 30%;
+    }
+    .logo p{
+        font-size: 11px;
+        text-align: left;
+    }
+    .nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav ul li {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .search .fa fa-search, input{
+        margin-top: 10px;
+    }
+    .nav ul li a{
+        font-size: 10px;
+    }
+
+    .heading{
+        margin-top: 30px;
+    }
+    .heading h1{
+        font-size: 20px;
+    }
+    .image p{
+        font-size: 11px;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+}
